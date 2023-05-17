@@ -1,7 +1,9 @@
 # APAN
  
-> A implement code for
+> An implement code for
 > *ZSL Meets CLIP: An Attribute Prompt Alignment Network for Zero-Shot Learning*
+
+![APAN_frame](src/main.jpg)
 
 ## Backbones prepare
 pretrained backbone file show placed here:
