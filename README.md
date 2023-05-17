@@ -1,10 +1,9 @@
 # APAN
  
-> A implement code for 
-> 
+> A implement code for
 > *ZSL Meets CLIP: An Attribute Prompt Alignment Network for Zero-Shot Learning*
 
-## Backbones
+## Backbones prepare
 pretrained backbone file show placed here:
 ```
 ├─backbone_pretrained
@@ -48,4 +47,10 @@ pretrained model file show placed here:
       │  └─xxx.pth
       └─GZSL
          └─xxx.pth
+```
+
+## Test model
+
+```shell
+python3 test.py -p path/to/pretrained_model
 ```
