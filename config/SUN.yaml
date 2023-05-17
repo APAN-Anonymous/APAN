@@ -1,0 +1,9 @@
+EPOCHS: 15
+DATASET:
+  PATH: './data/SUN'
+  NAME: 'SUN'
+  PKL: './data/SUN/SUN_full.pkl'
+LAMBDA:
+  cal: 1e-6
+  distill: 1e-6
+  pred: (0.06, 0.03)
