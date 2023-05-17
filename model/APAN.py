@@ -173,18 +173,16 @@ class APAN(nn.Module):
         loss_pmp = -torch.log(torch.mean(mass_unseen))
         return loss_pmp
 
-    def compute_distll_loss(self, embedding1, embedding2):
+    def compute_align_loss(self, embedding1, embedding2):
         """
-        Semantic Distillation Loss
+        prediction alignment loss
         """
-        # l2
         S_pp1, S_pp2 = embedding1, embedding2
         wt = (S_pp1 - S_pp2).pow(2)
         wt /= wt.sum(1).sqrt().unsqueeze(1).expand(wt.size(0), wt.size(1))
         loss = wt * (S_pp1 - S_pp2).abs()
         loss = (loss.sum() / loss.size(0))
 
-        # JSD
         KLDivLoss = nn.KLDivLoss(reduction='batchmean')
         p_output = F.softmax(S_pp1, dim=1)
         q_output = F.softmax(S_pp2, dim=1)
