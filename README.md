@@ -1,12 +1,15 @@
 # APAN
- 
+
 > An implement code for
 > *ZSL Meets CLIP: An Attribute Prompt Alignment Network for Zero-Shot Learning*
 
 ![APAN_frame](src/main.jpg)
 
 ## Backbones prepare
-pretrained backbone file show placed here:
+You can download pretrained backbone model, by clicking [CLIP ViT-B/16](https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt)
+and [ResNet 101]()
+Pretrained backbone file show be placed here:
+
 ```
 ├─backbone_pretrained
    ├─CLIP
@@ -16,7 +19,7 @@ pretrained backbone file show placed here:
 ```
 
 ## Datasets prepare
-dataset files should be placed like below:
+Dataset files should be placed like below:
 ```
 ├─data
    ├─AWA2
@@ -31,7 +34,7 @@ dataset files should be placed like below:
 ```
 
 ## APAN pretrain model
-pretrained model file show placed here:
+Download the pretrained model on [Google Drive](https://drive.google.com/drive/folders/1xfgCau6j0SZM0ZPoq5Nfwc87HIHFIUp1?usp=share_link) and then put them here:
 ```
 ├─pretrined
    ├─AWA2
