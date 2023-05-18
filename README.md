@@ -7,8 +7,7 @@
 
 ## Backbones prepare
 You can download pretrained backbone model, by clicking [CLIP ViT-B/16](https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt)
-and [ResNet 101]()
-Pretrained backbone file show be placed here:
+and [ResNet 101](https://download.pytorch.org/models/resnet101-63fe2227.pth). Pretrained backbone file show be placed here:
 
 ```
 ├─backbone_pretrained
