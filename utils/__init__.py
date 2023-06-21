@@ -1,8 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2023/2/27 18:32
-# @Author  : FrankLee
-# @FileName: __init__.py.py
-# @Software: PyCharm
+
 import clip
 import torchvision.models.resnet as models
 import torch.nn as nn

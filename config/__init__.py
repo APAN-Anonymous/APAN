@@ -1,8 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2023/2/27 18:28
-# @Author  : FrankLee
-# @FileName: __init__.py.py
-# @Software: PyCharm
+
 import os
 from .cfg import get_cfg_defaults
 

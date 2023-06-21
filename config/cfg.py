@@ -1,8 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2023/2/27 18:28
-# @Author  : FrankLee
-# @FileName: cfg.py
-# @Software: PyCharm
+
 from yacs.config import CfgNode as CN
 
 ###########################

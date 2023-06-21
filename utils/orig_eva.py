@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2023/3/1 14:34
-# @Author  : FrankLee
-# @FileName: orig_eva.py
-# @Software: PyCharm
-# Modified from https://github.com/shiming-chen/TransZero_pp/blob/main/utils.py
+
 import torch
 import os
 import numpy as np

@@ -1,8 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2023/3/10 19:12
-# @Author  : FrankLee
-# @FileName: misc.py
-# @Software: PyCharm
+
 import os.path
 import random
 from datetime import datetime

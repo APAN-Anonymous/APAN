@@ -1,8 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2023/4/19 22:09
-# @Author  : FrankLee
-# @FileName: test.py
-# @Software: PyCharm
+
 import argparse
 import time
 

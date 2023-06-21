@@ -1,8 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2023/2/27 19:53
-# @Author  : FrankLee
-# @FileName: APAN.py
-# @Software: PyCharm
+
 from typing import List, Tuple, Union
 
 import numpy
