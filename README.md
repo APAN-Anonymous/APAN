@@ -1,7 +1,7 @@
 # APAN
 
 > An implement code for
-> *ZSL Meets CLIP: An Attribute Prompt Alignment Network for Zero-Shot Learning*
+> *Attribute Prompt Alignment Network for Zero-Shot Learning*
 
 ![APAN_frame](src/main.png)
 
