@@ -3,7 +3,7 @@
 > An implement code for
 > *Attribute Prompt Alignment Network for Zero-Shot Learning*
 
-![APAN_frame](src/main.png)
+![APAN_frame](src/main.jpg)
 
 
 
