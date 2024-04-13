@@ -1,0 +1,11 @@
+EPOCHS: 5
+DATASET:
+  PATH: './data/AWA2'
+  NAME: 'AWA2'
+  PKL: './data/AWA2/AWA2_full.pkl'
+LAMBDA:
+  cal: 1e-3
+  distill: 1e-2
+  pred: (0.04, 0.04)
+OPT:
+  lr: 1e-4

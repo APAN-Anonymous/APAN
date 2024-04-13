@@ -1,0 +1,9 @@
+EPOCHS: 35
+DATASET:
+  PATH: './data/CUB'
+  NAME: 'CUB'
+  PKL: './data/CUB/CUB_full.pkl'
+LAMBDA:
+  cal: 1e-4
+  distill: 1e-4
+  pred: (0.1, 0.04)
