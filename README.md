@@ -1,7 +1,9 @@
-# APAN
+<div align="center">
+<h1>APAN</h1>
+<h3>Attribute Prompt Alignment Network for Zero-Shot Learning</h3>
+</div>
 
-> An implement code for
-> *Attribute Prompt Alignment Network for Zero-Shot Learning*
+
 
 ![APAN_frame](src/main.png)
 
